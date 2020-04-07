@@ -8,6 +8,10 @@
           box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 h1,
 .logo {
   font-family: "Amiri", serif;
@@ -38,8 +42,50 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+header .menu {
+  height: 30px;
+}
+
+header ul {
+  display: none;
+}
+
+.main-bg {
+  background: url("../img/adam-miller-dBaz0xhCkPY-unsplash.jpg") no-repeat center/cover;
+  width: 40%;
+  height: 100%;
+  z-index: -1;
+  right: 0;
+}
+
+.main-content {
+  padding: 9rem 4rem 9rem 3rem;
+}
+
+.main-content p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  padding-left: 20%;
+}
+
+.main-content p:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 4.4rem;
+  width: 20%;
+  background: #f0f3f4;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
