@@ -7,4 +7,39 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+h1,
+.logo {
+  font-family: "Amiri", serif;
+  font-weight: normal;
+}
+
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-bg,
+.social,
+.pagination {
+  position: absolute;
+}
+
+.social {
+  display: none;
+}
+
+header {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=main.css.map */

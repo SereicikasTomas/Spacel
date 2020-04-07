@@ -7,3 +7,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h1,
+.logo {
+  font-family: "Amiri", serif;
+  font-weight: normal;
+}
+
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-bg,
+.social,
+.pagination {
+  position: absolute;
+}
+
+.social {
+  display: none;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
