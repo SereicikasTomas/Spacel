@@ -61,7 +61,7 @@ header {
 }
 
 .main-content {
-  padding: 9rem 4rem 9rem 3rem;
+  padding: 13rem 6rem 13rem 5rem;
 
   h1 {
     font-size: 3rem;
@@ -70,7 +70,7 @@ header {
   }
 
   p {
-    margin-left: -3rem;
+    margin-left: -5rem;
     font-size: 1.1rem;
     line-height: 2rem;
     padding-left: 30%;
@@ -80,5 +80,38 @@ header {
       transparent 25%,
       transparent
     );
+  }
+}
+
+footer {
+  width: 85%;
+  background: #232c33;
+  display: flex;
+  position: relative;
+
+  .space {
+    width: 10rem;
+    height: 10rem;
+    background: url("../img/casey-horner-RmoWqDCqN2E-unsplash.jpg") no-repeat
+      center / cover;
+  }
+
+  .cta {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    margin: 3rem auto;
+    position: relative;
+    white-space: nowrap;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 95%;
+      height: 3.2rem;
+      border: 0.5px solid white;
+      left: -1rem;
+      top: -1rem;
+    }
   }
 }
