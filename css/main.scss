@@ -63,24 +63,22 @@ header {
 .main-content {
   padding: 9rem 4rem 9rem 3rem;
 
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+
   p {
+    margin-left: -3rem;
     font-size: 1.1rem;
     line-height: 2rem;
-    padding-left: 20%;
-
-    &:before {
-      content: "";
-      position: absolute;
-      left: 0;
-      height: 4.4rem;
-      width: 20%;
-      background: #f0f3f4;
-    }
+    padding-left: 30%;
+    background-image: linear-gradient(
+      to right,
+      #f0f3f4 25%,
+      transparent 25%,
+      transparent
+    );
   }
-}
-
-h1 {
-  font-size: 3rem;
-  line-height: 3rem;
-  margin-bottom: 1rem;
 }

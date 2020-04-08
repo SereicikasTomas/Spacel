@@ -68,24 +68,18 @@ header ul {
   padding: 9rem 4rem 9rem 3rem;
 }
 
-.main-content p {
-  font-size: 1.1rem;
-  line-height: 2rem;
-  padding-left: 20%;
-}
-
-.main-content p:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 4.4rem;
-  width: 20%;
-  background: #f0f3f4;
-}
-
-h1 {
+.main-content h1 {
   font-size: 3rem;
   line-height: 3rem;
   margin-bottom: 1rem;
+}
+
+.main-content p {
+  margin-left: -3rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  padding-left: 30%;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(25%, #f0f3f4), color-stop(25%, transparent), to(transparent));
+  background-image: linear-gradient(to right, #f0f3f4 25%, transparent 25%, transparent);
 }
 /*# sourceMappingURL=main.css.map */
