@@ -171,8 +171,15 @@ footer {
       color: black;
       text-decoration: none;
       display: block;
-      padding: 1rem 1.4rem;
+      padding: 1rem 1.5rem;
       font-size: 1.2rem;
+    }
+  }
+
+  .main-content {
+    p {
+      width: 90%;
+      padding-left: 25%;
     }
   }
 
@@ -180,7 +187,7 @@ footer {
     display: unset;
     z-index: 1;
     left: 0;
-    top: 45vh;
+    top: 47vh;
     background: rgba(255, 255, 255, 0.8);
 
     li {
@@ -192,5 +199,42 @@ footer {
         fill: #232c33;
       }
     }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 87.5%; // 14 px
+  }
+  footer {
+    width: 70%;
+
+    .space {
+      width: 15rem;
+      height: 15rem;
+    }
+  }
+  .main-content {
+    padding: 25vh 8rem 0 7rem;
+    p {
+      margin-left: -7rem;
+      // width: 90%;
+      // padding-left: 25%;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 100%; // 16 px
+  }
+  .main-content {
+    p {
+      width: 50%;
+      padding-left: 15%;
+    }
+  }
+  .main-bg {
+    right: 3rem;
   }
 }
