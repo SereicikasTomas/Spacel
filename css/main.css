@@ -83,18 +83,18 @@ header ul {
 }
 
 .main-content {
-  padding: 13rem 6rem 13rem 5rem;
+  padding: 25vh 6rem 0 5rem;
 }
 
 .main-content h1 {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 3.5rem;
+  line-height: 3.2rem;
   margin-bottom: 1rem;
 }
 
 .main-content p {
   margin-left: -5rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 2rem;
   padding-left: 35%;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(25%, #f0f3f4), color-stop(25%, transparent), to(transparent));
@@ -107,7 +107,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
+  position: absolute;
+  bottom: 5vh;
 }
 
 footer .space {
@@ -141,7 +142,7 @@ footer .cta:before {
   z-index: 1;
   background: rgba(255, 255, 255, 0.8);
   right: 0;
-  top: 30%;
+  top: 30vh;
 }
 
 .pagination li {
@@ -160,5 +161,41 @@ footer .cta:before {
 
 .pagination .active::before {
   background: #232c33;
+}
+
+@media screen and (min-width: 550px) {
+  html {
+    font-size: 75%;
+  }
+  .menu {
+    display: none;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 1rem 1.4rem;
+    font-size: 1.2rem;
+  }
+  .social {
+    display: unset;
+    z-index: 1;
+    left: 0;
+    top: 45vh;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  .social li {
+    padding: 0.6rem 1rem;
+  }
+  .social li svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: #232c33;
+  }
 }
 /*# sourceMappingURL=main.css.map */
