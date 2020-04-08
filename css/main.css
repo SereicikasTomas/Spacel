@@ -60,8 +60,8 @@ header .logo {
 }
 
 header .logo img {
-  -webkit-transform: translateX(-7px);
-          transform: translateX(-7px);
+  -webkit-transform: translateX(-0.7rem);
+          transform: translateX(-0.7rem);
   height: 1.4rem;
 }
 
