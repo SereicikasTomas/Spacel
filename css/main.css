@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+strong {
+  color: #232c33;
+}
+
 .main-bg,
 .social,
 .pagination {
@@ -57,7 +61,8 @@ header ul {
 }
 
 .main-bg {
-  background: url("../img/adam-miller-dBaz0xhCkPY-unsplash.jpg") no-repeat center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(transparent)), url("../img/adam-miller-dBaz0xhCkPY-unsplash.jpg") no-repeat top/cover;
+  background: linear-gradient(to bottom, white, transparent), url("../img/adam-miller-dBaz0xhCkPY-unsplash.jpg") no-repeat top/cover;
   width: 40%;
   height: 100%;
   z-index: -1;
@@ -78,7 +83,7 @@ header ul {
   margin-left: -5rem;
   font-size: 1.1rem;
   line-height: 2rem;
-  padding-left: 30%;
+  padding-left: 35%;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(25%, #f0f3f4), color-stop(25%, transparent), to(transparent));
   background-image: linear-gradient(to right, #f0f3f4 25%, transparent 25%, transparent);
 }
@@ -117,5 +122,30 @@ footer .cta:before {
   border: 0.5px solid white;
   left: -1rem;
   top: -1rem;
+}
+
+.pagination {
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.8);
+  right: 0;
+  top: 30%;
+}
+
+.pagination li {
+  padding: 1rem 2rem 2rem 1rem;
+  position: relative;
+}
+
+.pagination li::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #232c33;
+  border-radius: 50%;
+}
+
+.pagination .active::before {
+  background: #232c33;
 }
 /*# sourceMappingURL=main.css.map */
