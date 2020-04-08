@@ -52,6 +52,19 @@ header {
   padding: 1rem;
 }
 
+header .logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+
+header .logo img {
+  -webkit-transform: translateX(-7px);
+          transform: translateX(-7px);
+  height: 1.4rem;
+}
+
 header .menu {
   height: 30px;
 }

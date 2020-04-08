@@ -47,6 +47,17 @@ header {
   justify-content: space-between;
   padding: 1rem;
 
+  .logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    img {
+      transform: translateX(-7px);
+      height: 1.4rem;
+    }
+  }
+
   .menu {
     height: 30px;
   }
